@@ -24,7 +24,7 @@ if (twibbonImg.src) {
 ctx.drawImage(twibbonImg, 0, 0, canvas.width, canvas.height);
 }
 if (showWatermark) {
-const text = "TwibbonKu";
+const text = "Twibbon by Ferry Ayunda";
 ctx.font = "16px sans-serif";
 const textWidth = ctx.measureText(text).width;
 ctx.fillStyle = "rgba(0, 0, 0, 0.5)";
