@@ -35,7 +35,7 @@ ctx.fillText(text, 20, canvas.height - 12);
 }
 
 twibbonImg.onload = () => draw(false);
-twibbonImg.src = "frame.png";
+twibbonImg.src = "/frame.png";
 
 upload.addEventListener("change", (e) => {
 const file = e.target.files[0];
