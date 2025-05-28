@@ -3,10 +3,9 @@
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
 	<div id="loading">Memuat...</div>
         <div class="alert">
-        <h1>Selamat Datang!</h1>
+        <h1>Selamat {name}!</h1>
         <p style="padding-top:10px;color:#000;">Ini adalah situs web tempat Anda dapat menambahkan foto ke bingkai.</p>
         <a href="#" class="close_btn"><i class="bi bi-x-square-fill"></i></a>
         </div>
