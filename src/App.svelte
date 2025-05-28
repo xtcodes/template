@@ -4,7 +4,12 @@
 
 <main>
 	<h1>Hello {name}!</h1>
-	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<div id="loading">Memuat...</div>
+        <div class="alert">
+        <h1>Selamat Datang!</h1>
+        <p style="padding-top:10px;color:#000;">Ini adalah situs web tempat Anda dapat menambahkan foto ke bingkai.</p>
+        <a href="#" class="close_btn"><i class="bi bi-x-square-fill"></i></a>
+        </div>
 </main>
 
 <style>
